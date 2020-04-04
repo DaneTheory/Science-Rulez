@@ -1,0 +1,12 @@
+{
+  "name": "periodic-table",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./examples/css3d_periodtable.html",
+  "scripts": {
+    "dev": "serve"
+  },
+  "devDependencies": {
+    "serve": "latest"
+  }
+}
