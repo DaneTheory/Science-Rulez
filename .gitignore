@@ -1,0 +1,32 @@
+# NPMJS.com recommended ignore list
+# .git
+CVS
+.svn
+.hg
+.lock-wscript
+.wafpickle-N
+.*.swp
+.DS_Store
+._*
+npm-debug.log
+.npmrc
+config.gypi
+*.orig
+package-lock.json
+
+# Node ignores
+node_modules
+.now
+.next
+
+
+# General Best practices
+.env
+dist
+build
+
+# Yarn Zero Install Setup
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins

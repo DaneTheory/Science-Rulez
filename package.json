@@ -1,0 +1,53 @@
+{
+  "name": "@danetheory/science-rulez",
+  "versions": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "12.x",
+    "yarn": ">= 2.0.0"
+  },
+  "config": {},
+  "license": "MIT",
+  "description": "{{TODO}}",
+  "keywords": [
+    "{{TODO}}"
+  ],
+  "homepage": "{{TODO}}",
+  "author": "Branden Dane <Branden@DaneTheory.com> (https://DaneTheory.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaneTheory/Science-Rulez.git"
+  },
+  "main": "{{TODO}}",
+  "bin": "./bin/science-rulez.js",
+  "directories": {
+    "bin": "./bin",
+    "docs": "./docs",
+    "workspaces": "./workspaces"
+  },
+  "scripts": {
+    "lsc": "ytl",
+    "start": "echo \"Error: {{TODO}}: START SCRIPT SETUP!!\" && exit 1",
+    "dev": "echo \"Error: {{TODO}}: DEV SCRIPT SETUP!!\" && exit 1",
+    "lint": "echo \"Error: {{TODO}}: Linting SETUP!!\" && exit 1",
+    "test": "echo \"Error: {{TODO}}: JEST SETUP!!\" && exit 1",
+    "build": "echo \"Error: {{TODO}}: BUILD SCRIPT SETUP!!\" && exit 1",
+    "clean": "echo \"Error: {{TODO}}: CLEAN SCRIPT SETUP!!\" && exit 1",
+    "lsw": "yarn workspaces list",
+    "upgrade": "yarn upgrade-interactive",
+    "wss": "yarn workspaces foreach {{TODO}}"
+  },
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
+    "babel-plugin-macros": "^2.8.0",
+    "jest": "latest",
+    "now": "latest",
+    "ytl": "latest"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
