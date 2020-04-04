@@ -1055,9 +1055,9 @@ __metadata:
     "@babel/preset-env": ^7.9.0
     babel-plugin-macros: ^2.8.0
     dotenv: ^8.2.0
-    jest: latest
-    now: latest
-    ytl: latest
+    jest: ^25.2.7
+    now: ^17.1.1
+    ytl: ^3.3.0
   bin:
     science-rulez: ./bin/science-rulez.js
   languageName: unknown
@@ -3809,7 +3809,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:latest":
+"jest@npm:^25.2.7":
   version: 25.2.7
   resolution: "jest@npm:25.2.7"
   dependencies:
@@ -4400,7 +4400,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"now@npm:latest":
+"now@npm:^17.1.1":
   version: 17.1.1
   resolution: "now@npm:17.1.1"
   bin:
@@ -6306,7 +6306,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"ytl@npm:latest":
+"ytl@npm:^3.3.0":
   version: 3.3.0
   resolution: "ytl@npm:3.3.0"
   dependencies:
